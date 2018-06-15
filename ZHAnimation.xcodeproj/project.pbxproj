@@ -15,6 +15,8 @@
 		0FF7C0F22045095E00069D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7C0F12045095E00069D88 /* main.m */; };
 		0FF7C0FC2045095E00069D88 /* ZHAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7C0FB2045095E00069D88 /* ZHAnimationTests.m */; };
 		0FF7C1072045095E00069D88 /* ZHAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7C1062045095E00069D88 /* ZHAnimationUITests.m */; };
+		0FF7C11620450B9900069D88 /* ZHMarqueeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7C11520450B9900069D88 /* ZHMarqueeVC.m */; };
+		0FF7C11920450C1E00069D88 /* ZHMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7C11820450C1E00069D88 /* ZHMarqueeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0FF7C1022045095E00069D88 /* ZHAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF7C1062045095E00069D88 /* ZHAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAnimationUITests.m; sourceTree = "<group>"; };
 		0FF7C1082045095E00069D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF7C11420450B9900069D88 /* ZHMarqueeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHMarqueeVC.h; sourceTree = "<group>"; };
+		0FF7C11520450B9900069D88 /* ZHMarqueeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHMarqueeVC.m; sourceTree = "<group>"; };
+		0FF7C11720450C1E00069D88 /* ZHMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHMarqueeView.h; sourceTree = "<group>"; };
+		0FF7C11820450C1E00069D88 /* ZHMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHMarqueeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				0FF7C0E32045095E00069D88 /* AppDelegate.m */,
 				0FF7C0E52045095E00069D88 /* ViewController.h */,
 				0FF7C0E62045095E00069D88 /* ViewController.m */,
+				0FF7C11420450B9900069D88 /* ZHMarqueeVC.h */,
+				0FF7C11520450B9900069D88 /* ZHMarqueeVC.m */,
+				0FF7C11720450C1E00069D88 /* ZHMarqueeView.h */,
+				0FF7C11820450C1E00069D88 /* ZHMarqueeView.m */,
 				0FF7C0E82045095E00069D88 /* Main.storyboard */,
 				0FF7C0EB2045095E00069D88 /* Assets.xcassets */,
 				0FF7C0ED2045095E00069D88 /* LaunchScreen.storyboard */,
@@ -266,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FF7C0E72045095E00069D88 /* ViewController.m in Sources */,
+				0FF7C11920450C1E00069D88 /* ZHMarqueeView.m in Sources */,
 				0FF7C0F22045095E00069D88 /* main.m in Sources */,
 				0FF7C0E42045095E00069D88 /* AppDelegate.m in Sources */,
+				0FF7C11620450B9900069D88 /* ZHMarqueeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
